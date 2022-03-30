@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/svell-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/svell-portfolio/static/js/main.958b6b99.js",
+    "static/js/787.f1ed127f.chunk.js": "/svell-portfolio/static/js/787.f1ed127f.chunk.js",
+    "static/media/logo.svg": "/svell-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/svell-portfolio/index.html",
+    "main.073c9b0a.css.map": "/svell-portfolio/static/css/main.073c9b0a.css.map",
+    "main.958b6b99.js.map": "/svell-portfolio/static/js/main.958b6b99.js.map",
+    "787.f1ed127f.chunk.js.map": "/svell-portfolio/static/js/787.f1ed127f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.958b6b99.js"
+  ]
+}
