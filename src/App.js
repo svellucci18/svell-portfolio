@@ -3,16 +3,15 @@ import './App.css';
 import {Button, Container, Row, Col} from "react-bootstrap";
 import Navbar from './components/Navbar';
 import Bio from './components/Bio';
+import PortfolioContainer from './components/PortfolioContainer';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Container>
-      <Bio/>
-      <Button>Test </Button>
-      </Container>
+      <PortfolioContainer/>
+      <Footer/>
     </>
   )
 };
