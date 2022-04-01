@@ -1,21 +1,25 @@
 import React from 'react';
+import svellRupert from '../../images/svellandrupert.png'
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function About() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <Container>
+      <Row>
+        <Col className="m-5">
+          <h2>Hi, I'm Samantha.</h2>
+          <p>I am an avid problem solver, a
+          scientist, and a great hostess of gatherings. My mission
+          is to spread joy through coding and compliments.</p>
+        </Col>
+        <Col class="col-md-4">
+          <img
+            src={svellRupert}
+            class="img-fluid rounded-start"
+            alt="samantha and rupert"
+          />
+        </Col>
+      </Row>  
+    </Container>
   );
 }
