@@ -12,10 +12,10 @@ export default function About() {
           scientist, and a great hostess of gatherings. My mission
           is to spread joy through coding and compliments.</p>
         </Col>
-        <Col class="col-md-4">
+        <Col className="col-md-4 m-4">
           <img
             src={svellRupert}
-            class="img-fluid rounded-start"
+            className="img-fluid rounded-start"
             alt="samantha and rupert"
           />
         </Col>
